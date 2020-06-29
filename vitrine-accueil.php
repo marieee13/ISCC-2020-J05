@@ -9,7 +9,9 @@
     </head> 
  
     <body>
-    <?php include("header.php");
+    <?php 
+    $page_title = "Accueil";
+    include('header.php');
     ?>
  
     <Main class="Accueil">

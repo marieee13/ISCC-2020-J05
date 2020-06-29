@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "opensans";
+    src: url("OpenSans-Regular.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "nasa";
+    src: url("nasalization-rg.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-image: url("texture-header.jpg");
+    height: 150px;
+}
+ 
+h1 {
+    color: #27d1ff;
+    font-family: "nasa";
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+ 
+nav {
+    font-family: "opensans";
+    display: inline-block;
+    background-color: #2e2f30;
+    width: 100%;
+    margin: 0px;
+    margin-right: auto;
+    padding-right:50px;
+    text-align: right;
+    vertical-align: center;
+}
+ 
+header nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+ 
+a:hover {
+    color: #17c1ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    font-family: "opensans";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+    margin: auto;
+    margin-right: auto;
+}
+ 
+main.Accueil > h2 {
+    text-shadow: 2px 2px 4px black;
+    border-width: 15px;
+        border-color: rgb(201, 199, 199);
+        border-style:center;
+        display: block;
+        margin-right: 50%;
+        padding:20px;
+    flex-direction: row;
+    background-color:  rgb(201, 199, 199);
+    width: 800px;
+    height: 10px;
+
+}
+ 
+main.Accueil {
+    text-align: center;
+    
+}
+main.programme>h2{
+    text-shadow: 2px 2px 4px;
+    background-color: #f2f2f2;
+}
+main.contacts>h2
+{ text-shadow: 2px 2px 4px;
+    background-color: #f2f2f2;
+
+}
+main * {
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+footer > a, footer > img {
+    display: block;
+    position: absolute;
+    bottom: -15%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -40px;
+    height: 5px;
+}
+ 
+body {
+    background-color: #f2f2f2;
+    font-family: "opensans";
+    font-size: 14px;
+}
+main{
+    background-color: white;
+    display:block;
+    border-color:2px;
+    border-width: 2px;
+    border-style: solid;
+    height:480px;
+    overflow-y: scroll;
+    overflow:auto;
+}
+table{
+    font-family: "opensansregular";
+    text-align: center;
+    width:810px;
+}
+td{
+    text-align:left;
+    padding:8px;
+
+}
+th{
+    text-align:center;
+    background-color:#27d1ff;
+    color:white;
+}
+tr.Un{
+    background-color: #27d1ff;
+}
+main.Contacts{
+    background-color: white;
+    display:block;
+    border-color:white;
+    border-width:15px;
+    border-style: solid;
+    height:480px;
+    width:300px;
+    margin-block:8px;
+    font-family:"opensansregular";
+
+}
+input [type=submit]{
+    width:100%;
+    background-color:rgb(49,49,230);
+    color:white;
+    padding:50px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+input[type=submit]:hover{
+    background-color: #17c1ff;
+}
+div{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding:80px;
+
+}
+a.active {
+    color: #17c1ff;
+    font-style: bold;
+}

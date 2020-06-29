@@ -7,7 +7,9 @@
 </head>
 <body>
 
-<?php include ("header.php");
+<?php 
+$page_title = "Contact";
+include ('header.php');
 ?>
 <main class="Contacts">
   <h2>Contacts</h2>
